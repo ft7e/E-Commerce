@@ -2,4 +2,4 @@
 
 ## Deployed project
 
-[deployed](https://thriving-hummingbird-4736c6.netlify.app/)
+[deployed](https://inquisitive-centaur-7aa051.netlify.app/)
