@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 export const Catagory_Create_Context = React.createContext();
 
 export function Catagory_Provider(props) {
-  const [catagory, setcatagory] = useState('smartphones');
+  const [catagory, setcatagory] = useState('cats');
 
   return (
     <Catagory_Create_Context.Provider value={{ catagory, setcatagory }}>

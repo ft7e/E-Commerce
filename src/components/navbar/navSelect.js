@@ -17,7 +17,7 @@ function Navbarselect() {
 
   //go to select catagory page
   const selectCatagory = (e) => {
-    Catagory_select.setcatagory(e.target.textContent);
+    Catagory_select.setcatagory(e.target.textContent.toLowerCase());
   };
 
   return (
@@ -33,8 +33,8 @@ function Navbarselect() {
         variants={imageVaariens}
         onClick={selectCatagory}
       >
-        <li>smartphones</li>
-        <li>laptops</li>
+        <li>Cats</li>
+        <li>Dogs</li>
       </motion.ul>
     </>
   );
